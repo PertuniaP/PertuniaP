@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://za.pinterest.com/pin/275001120981256122/);
+    background-repeat: no-repeat, repeat;
+    background-color: violet;
+    background-size: cover;
+}
+
+nav {
+    flex: 2;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+li:hover {
+    background-color: grey;
+    border: 1px outset black;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    height: 10%;
+    color: teal;
+}
+
+picture {
+    flex: 1;
+    width: 20%;
+}
+
+#img1 {
+    width: 100%;
+    padding: 10px;
+    height: 0%;
+}
+
+#img2 {
+    width: 30%;
+    padding: 10px;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+.img3 {
+    width: 20%;
+    align-content: right;
+    border-radius: 10px;
+    float: right;
+    padding-right: 20%;
+}
+
+.img4 {
+    width: 20%;
+    align-content: right;
+    border-radius: 10px;
+    float: right;
+    padding-right: 40%;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: normal;
+    text-shadow: grey;
+    color: darkslategrey;
+}
+
+p {
+    float: left;
+    padding-left: 15%;
+    width: 30%;
+    flex: 1;
+}
+
+.icons {
+    width: 15px;
+    border-radius: 80%;
+}
+
+.fieldset {
+    background-color: lightgrey;
+    font-family: cursive;
+    border-left: none;
+    border-right: none;
+}
+
+.heading3 {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: normal;
+    text-shadow: grey;
+    color: darkslategrey;
+}
