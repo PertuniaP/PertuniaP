@@ -6,27 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="layout.css">
-    <title></title>
+    <title>RSVP-page</title>
 </head>
 
 <body>
     <header>
-        <picture>
-        </picture>
-
         <nav>
             <ul>
-                <li><a href="Home.html">HOME</a></li>
-                <li><a href="Couple.html">COUPLE</a></li>
-                <li><a href="Story.html">STORY</a></li>
-                <li><a href="Events.html">EVENTS</a></li>
-                <li><a href="People.html">PEOPLE</a></li>
-                <li> <a href="Gallery.html">GALLERY</a></li>
-                <li><a href="RSVP.html">RSVP</a></li>
+                <li><a class="nav-list-item" href="home.html">HOME</a></li>
+                <li><a class="nav-list-item" href="couple.html">COUPLE</a></li>
+                <li><a class="nav-list-item" href="story.html">STORY</a></li>
+                <li><a class="nav-list-item" href="events.html">EVENTS</a></li>
+                <li><a class="nav-list-item" href="people.html">PEOPLE</a></li>
+                <li><a class="nav-list-item" href="gallery.html">GALLERY</a></li>
+                <li><a class="nav-list-item" href="rsvp.html">RSVP</a></li>
+                <li><a class="nav-list-item" href="index.html">LOGOUT</a></li>
             </ul>
         </nav>
     </header>
 
+    <section class="rsvp-form">
+        <section class="page-content">
+            <form>
+                <section class="page-headings">
+                    <h1 class="page-header"><i>Join Our Party!</i></h1>
+                </section>
+                <fieldset>
+                    <section class="rsvp-heading">
+                        <h4 class="rsvp-page">Please Let us know if you can make it</h4>
+                    </section>
+                    <section class="rsvp-page">
+                        <label for="name">Full Name:</label>
+                        <input class="rsvp-page" type="text" id="name" placeholder="First Name" required><label for="surname"></label>
+                        <input class="rsvp-page" type="text" id="surname" placeholder="Last Name" required><br/><br/>
+                        <label for="email">Email Address:</label>
+                        <input class="rsvp-page" type="email" id="email"><br/><br/>
+                        <label for="numberofpeople">Number of People attending: </label>
+                        <input class="rsvp-page" type="number" id="numberofpeople" value="1" min="0" max="10"><br/><br/>
+                        <label for="diet-options">Any Diet Options</label><br>
+                        <select name="options" class="rsvp-page" size="1">
+                            <option value="Halaal" >Halaal</option>
+                            <option value="Vegan">Vegan</option>
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Paleo">Paleo</option>
+                            <option value="FODMAP">FODMAP</option>
+                            <option value="Dairy-Free-and-lactose-Free">Dairy Free and lactose Free</option>
+                            <option value="Tree-nut-and-peanut-allergies">Tree nut and peanut allergies</option>
+                            <option value="Fish-and-shellfish-allergies">Fish and shellfish allergies</option>
+                            <option value="The-Ketogenic-diet">The Ketogenic diet</option>
+                        </select><br/><br/>
+                        <label for="gift">Gift type: </label><br/>
+                        <textarea class="rsvp-page"></textarea><br/><br/>
+                        <label for="people">What are the names of the other people coming, if any?</label><br/>
+                        <textarea class="rsvp-page"></textarea><br/><br/>
+                        <label for="comment">Comments</label><br/>
+                        <textarea class="rsvp-page" id="rsvp"></textarea><br/><br/><br/>
+                        <input class="rsvp-page" type="submit" value="Submit">
+                    </section>
+                </fieldset>
+            </form>
+        </section>
+    </section>
 </body>
 
 </html>

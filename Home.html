@@ -6,37 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="layout.css">
-    <title></title>
+    <title>Homepage</title>
     <style>
 
     </style>
 </head>
 
-<body>
+<body class="homepage-background">
+
     <header>
-        <picture>
-            <img id="img2" src="114ac76f4ebe6c704a628f53fdb02d40.jpg">
-        </picture>
-        <div class="nav1">
-            <nav>
-                <ul>
-                    <li><a href="Home.html">HOME</a></li>
-                    <li><a href="Couple.html">COUPLE</a></li>
-                    <li><a href="Story.html">STORY</a></li>
-                    <li><a href="Events.html">EVENTS</a></li>
-                    <li><a href="People.html">PEOPLE</a></li>
-                    <li> <a href="Gallery.html">GALLERY</a></li>
-                    <li><a href="RSVP.html">RSVP</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li><a class="nav-list-item" href="home.html">HOME</a></li>
+                <li><a class="nav-list-item" href="couple.html">COUPLE</a></li>
+                <li><a class="nav-list-item" href="story.html">STORY</a></li>
+                <li><a class="nav-list-item" href="events.html">EVENTS</a></li>
+                <li><a class="nav-list-item" href="people.html">PEOPLE</a></li>
+                <li><a class="nav-list-item" href="gallery.html">GALLERY</a></li>
+                <li><a class="nav-list-item" href="rsvp.html">RSVP</a></li>
+                <li><a class="nav-list-item" href="index.html">LOGOUT</a></li>
+            </ul>
+        </nav>
     </header>
-    <h1><i>Ariana and Ryan</i></h1>
-    <h3>WE'RE GETTING MARRIED!</h3>
-    <div class="image">
-        <img id="img1" src="Bride and Groom 2.jpg" />
-    </div>
+    <section class="page-content-wrapper">
+        <section class="page-content">
+            <h1 class="page-header"><i>Ariana and Ryan</i></h1>
+            <fieldset id="homepage-border">
+                <h3 id="homepage-heading">WE'RE GETTING MARRIED!</h3>
+                <section class="homepage-image-section">
+                    <h4 class="homepage-image-name">Ariana Smith</h4>
+                    <img class="homepage-image" alt="" src="assets/Bride.jpg">
+                </section>
+                <section class="homepage-image-section">
+                    <h4 class="homepage-image-name">Ryan Spencer</h4>
+                    <img class="homepage-image" alt="" src="assets/-Groom-.jpg">
+                </section>
+                <br/><br/>
+                <section class="story-button-section">
+                    <button><a href="Story.html" class="homepage-button"><strong>Read Our Story</strong></a></button>
+                </section>
+
+            </fieldset>
+        </section>
+    </section>
+
 </body>
-<footer>Wedding Planner &copy; 2021</footer>
 
 </html>
